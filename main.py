@@ -76,7 +76,7 @@ def assign_task():
         'intern_id': str(data['intern_id']),
         'description': data['description'],
     })
-    return jsonify({'message': 'Handled by Nayan'})
+    return jsonify({'message': 'Handled by Nayan M'})
 
 @app.route('/tasks/<intern_id>', methods=['GET'])
 def get_tasks(intern_id):
