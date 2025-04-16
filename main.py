@@ -85,7 +85,7 @@ def get_tasks(intern_id):
         task['_id'] = str(task['_id'])
     return jsonify(intern_tasks)
 
-
+#added comment
 
 
 if __name__ == '__main__':
